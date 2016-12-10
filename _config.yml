@@ -4,7 +4,11 @@ email: ugur.cibar@gmail.com
 description: "Uğur Cibaroğlu'nun kişisel blogu. Karabük üniversitesi Bilgisayar mühendisliği öğrencisi."
 baseurl: ""
 url: "http://ugurcibar.com"
-title_description: "Bilgisayar mühendisliği öğrencisi, acemi yazılım ve oyun geliştirici, Kendi çapında oyun eleştirmeni."
+title_description: "Merhaba, Ben Uğur.<br><br>
+Karabük üniversitesinde Bilgisayar mühendisliği öğrencisiyim.
+Yazılım dünyasına web teknolojileri ile giriş yaptım. PHP, Ruby, CodeIgniter, Rails, NodeJS gibi dostlarım oldu.<br><br>
+Web'den ve CRUD app'lerden sıkılınca, oyun geliştirmeye merak saldım. Elimden geldiğince oyun ve yazılım geliştirme maceralarımı buradan paylaşacağım.<br><br>
+Unreal Engine 4 ve muazzam tutorial'ları ellerinizden öper."
 title_image: ""
 google_analytics: ""
 disqus_account: cartenoire
