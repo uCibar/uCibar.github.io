@@ -14,3 +14,9 @@
 .index .articles a{
   font-size: 30px;
 }
+
+.index .articles h2{
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
