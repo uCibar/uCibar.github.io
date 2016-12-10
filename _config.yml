@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://ugurcibar.com"
 title_description: "Bilgisayar mühendisliği öğrencisi, acemi yazılım ve oyun geliştirici, Kendi çapında oyun eleştirmeni."
 title_image: ""
-google_analytics: "UA-20365477-4"
+google_analytics: ""
 disqus_account: cartenoire
 github_repository: https://github.com/jacobtomlinson/carte-noire
 addthis_id: ra-513c6fa83da6ec67
@@ -18,8 +18,8 @@ github_username:  uCibar
 steam_username:  redostr
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_left: "Powered by <a href=\"https://github.com/jekyll/jekyll\">Jekyll</a> and <a href=\"https://github.com/jacobtomlinson/carte-noire\">Carte-Noire</a> theme."
+footer_right: ""
 
 # Build settings
 markdown: kramdown
