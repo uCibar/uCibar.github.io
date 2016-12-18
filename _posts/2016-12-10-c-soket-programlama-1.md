@@ -92,6 +92,7 @@ Bu fonksiyonumuz ise **unsigned long** türüne dönüştürülmüş IP adresimi
 
 ### INADDR_ANY Sabiti
 Yazdığınız programda, IP adresini elle değilde, otomatik olarak bilgisayarın IP adresi olarak belirlemek istiyorsanız kullanacağınız sabit **INADDR_ANY** sabitidir. **INADDR_ANY** sabitini Big-Endian sıralamasına dönüştürmenize gerek yoktur. Nedeni ise; bu sabitin değerinin aslında sıfıra eşit olması. Sıfırın Big,Little,Middle Endian'ı da sıfırdır :)
+
 # Adres Ailesi
 İleride bahsedeceğiz dediğim, **sockaddr_in** struct'ında bulunan **sin_family** değişkenimizden bahsetme zamanımız geldi. Nedir bu adres ailesi? IP adresi, internete veya bir ağa bağlı cihazlara verilen bir adres. TCP/IP paketleri gidecekleri cihazı bu adres sayesinde buluyor. Ayrıca IP adresi günümüzde en yaygın kullanılan adresleme yöntemidir. Ama çok sık kullanılmasalar da IP adresi dışında kullanılan adresleme yöntemleride var.
 
