@@ -2,7 +2,7 @@
 layout: page
 title: Ben Kimim?
 permalink: /about/
-subtitle: Web'i bırakıp oyun geliştirmeye çalışan bir üniversite öğrecisiyim...
+subtitle: oyun ve yazılım geliştirmeye çalışan bir üniversite öğrecisiyim...
 ---
 
 Merhaba, Ben Uğur.
