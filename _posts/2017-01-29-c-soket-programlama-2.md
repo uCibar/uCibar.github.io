@@ -167,7 +167,7 @@ Tahmin edebileceğiniz gibi veri göndermek için kullandığımız fonksiyondur
 
 **recv()** fonksiyonu geriye gelen verinin boyutunu döndürür. Hata durumunda -1 döndürür ve eğer 0 değerini döndürüse bilin ki karşı taraf bağlantıyı koparmıştır.
 
-### close() artık yatma vakti
+### close() Artık yatma vakti
 {% highlight c %}
 close(sockfd);
 {% endhighlight %}
