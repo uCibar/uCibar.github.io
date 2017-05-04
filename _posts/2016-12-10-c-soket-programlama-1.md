@@ -1,5 +1,5 @@
 ---
-title: Soketler, Soketlerimiz! (C Soket Programlama)
+title: Soketler, Soketlerimiz! (C Soket Programlama - 1)
 layout: post
 summary: C ile chat uygulaması. Soketler, multithreading, client, server... Bir MSN
   Messenger kolay yetişmiyor.
@@ -55,7 +55,7 @@ struct in_addr {
 
 Bu struct'a değinmeden önce [Endian'dan](https://tr.wikipedia.org/wiki/Endian) bahsetmem lazım. İşlemciler byte'ları saklarken önemli byte'ın solda veya sağda olmasına göre ikiye ayrılır. Önemli byte'ın solda bulunduğu sıralamaya "Big-Endian", sağda bulunduğu sıralamaya "Little-Endian" denir. Bu seride kullanacağımız TCP/IP protokolü Big-Endian kullanır. Yani TCP/IP paketi gönderileceği zaman önce en değerli bitler gönderilir veya alınır. Bizimde bu kurala uyup göndereceğimiz paketleri Big-Endian şeklinde düzenlememiz gerekir.
 
-Düzenlememiz gereken en temel bilgiler IP adresi ve port numarasıdır. Bu değerleri Big-Endian'a çeviren fonksiyonlara ileride değineceğim, biz **in_addr** struct'ımıza geri dönelim; IP adreslerini bir değişkende tutmak istediğimizde bu değişkenimizin **String** türünde olması gerekiyor, C için konuşacak olursak bir **Char** dizisi olmalı. Sonuçta IP adresleri "nokta" ve "sayılardan" oluşan bir yapıda ve mesela doğrudan **integer** türünde bir değişkene atayamayız IP adresini.
+Düzenlememiz gereken en temel bilgiler IP adresi ve port numarasıdır. Bu değerleri Big-Endian'a çeviren fonksiyonlara ileride değineceğim, biz **in_addr** struct'ımıza geri dönelim; IP adreslerini bir değişkende tutmak istediğimizde bu değişkenimizin **String** türünde olması gerekiyor, C dili için konuşacak olursak bir **Char** dizisi olmalı. Sonuçta IP adresleri "nokta" ve "sayılardan" oluşan bir yapıda ve mesela doğrudan **integer** türünde bir değişkene atayamayız IP adresini.
 
 Ayrıca Bir TCP/IP paketinin IP header'ının "kaynak adres" ve "hedef adres" kısımları 32 bit'ten oluşur, yani 4 byte. Tahmin edebileceğiniz gibi **String** veya **Char** dizisi türündeki bir IP adresi 4 byte'tan daha büyük boyutlarda. Bu yüzden IP adreslerini 4 byte boyutunda ve Big-Endian sıralamasında bir **integer'a** dönüştürmemiz gerekiyor. Bu dönüştürme işlemlerini ileride yapacağız ve merak etmeyin bu dönüştürmeyi yapmak, anlatmaktan daha kolay :) (C'de bunun için hazır fonksiyonlar var). Ve işte dönüştürdüğümüz bu IP adresini **in_addr** struct'ında tutuyoruz.
 
