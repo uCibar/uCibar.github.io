@@ -3,7 +3,8 @@ title: Soketler, Soketlerimiz! (C Soket Programlama - 1)
 layout: post
 summary: C ile chat uygulaması. Soketler, multithreading, client, server... Bir MSN
   Messenger kolay yetişmiyor.
-categories: c-lang
+categories: c-lang network
+keywords: c network socket soket programlama
 ---
 
 Data Communıcation Systems dersinde, hocamızın verdiği chat uygulaması ödevi üzerine kolları sıvadım ve açtım atomu. Kötü geçen bir vize ve bu ödevi yaparsak eklenecek 15 puan, üstüne bir de soketler, network gibi eğlenceli konuların geçtiği bir ödev, ne güzel değil mi? Nedense okulda verilen ödevleri genelde sevmişimdir. Merak etmeyin "hocam ödev vardı?" diyen öğrencilerden değilim :) Sadece okuldaki ezberci eğitimden biraz sıyrılıp, kendimizi geliştirdiğimiz ve birşeyler ürettiğimiz ödevler hoşuma gidiyor.

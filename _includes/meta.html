@@ -7,7 +7,7 @@
         <title> {%if page.layout == 'default' %} {{site.title}} {%else%}{{ page.title }} - {{ site.title }}{%endif%}</title>
         <meta name="author" content="{{ site.author }}" />
         <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}" />
-        <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}" />
+        <meta name="keywords" content="{%for keyword in page.keywords%} {{keyword}} {%endfor%}" />
 
         <meta content="{{ site.share.fb_appid }}" property="fb:app_id">
         <meta content="{{ site.title }}" property="og:site_name">

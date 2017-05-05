@@ -3,7 +3,8 @@ title: Temel Soket Fonksiyonları (C Soket Programlama - 2)
 layout: post
 summary: C ile chat uygulaması. Soketler, multithreading, client, server... Bir MSN
   Messenger kolay yetişmiyor.
-categories: c-lang
+categories: c-lang network
+keywords: c network socket soket programlama
 ---
 
 Tekrar merhaba, uzun bir sınav döneminden sonra **soketler** ve **C** ile olan maceramıza geri dönebiliriz. Bu yazıda temel soket fonksiyonlarını anlatacağım ve sonrasında basit bir **echo server** yazarız.
